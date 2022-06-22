@@ -6,6 +6,8 @@ overrides:
 specifiers:
   '@babel/core': ^7.12.9
   '@babel/runtime': ^7.12.5
+  '@react-native-community/cli-platform-android': ^8.0.2
+  '@react-native-community/cli-platform-ios': ^8.0.2
   '@react-native-community/eslint-config': ^2.0.0
   '@types/jest': ^26.0.23
   '@types/react-native': ^0.67.3
@@ -22,6 +24,8 @@ specifiers:
   typescript: ^4.4.4
 
 dependencies:
+  '@react-native-community/cli-platform-android': 8.0.2
+  '@react-native-community/cli-platform-ios': 8.0.2
   react: 17.0.2
   react-native: 0.68.2_react@17.0.2
 
@@ -1296,6 +1300,22 @@ packages:
       - encoding
     dev: false
 
+  /@react-native-community/cli-platform-android/8.0.2:
+    resolution: {integrity: sha512-pAEkt+GULesr8FphTpaNYSmu+O1CPQ2zCXkAg4kRd0WXpq3BsVqomyDWd/eMXTkY/yYQMGl6KilU2p9r/hnfhA==}
+    dependencies:
+      '@react-native-community/cli-tools': 8.0.0
+      chalk: 4.1.2
+      execa: 1.0.0
+      fs-extra: 8.1.0
+      glob: 7.2.3
+      jetifier: 1.6.8
+      lodash: 4.17.21
+      logkitty: 0.7.1
+      slash: 3.0.0
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
   /@react-native-community/cli-platform-ios/7.0.1:
     resolution: {integrity: sha512-PLRIbzrCzSedmpjuFtQqcqUD45G8q7sEciI1lf5zUbVMXqjIBwJWS7iz8235PyWwj8J4MNHohLC+oyRueFtbGg==}
     dependencies:
@@ -1308,6 +1328,21 @@ packages:
       ora: 5.4.1
       plist: 3.0.5
       xcode: 3.0.1
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@react-native-community/cli-platform-ios/8.0.2:
+    resolution: {integrity: sha512-LxWzj6jIZr5Ot893TKFbt0/T3WkVe6pbc/FSTo+TDQq1FQr/Urv16Uqn0AcL4IX2O1g3Qd13d0vtR/Cdpn3VNw==}
+    dependencies:
+      '@react-native-community/cli-tools': 8.0.0
+      chalk: 4.1.2
+      execa: 1.0.0
+      glob: 7.2.3
+      js-yaml: 3.14.1
+      lodash: 4.17.21
+      ora: 5.4.1
+      plist: 3.0.5
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -1367,6 +1402,22 @@ packages:
 
   /@react-native-community/cli-tools/7.0.1:
     resolution: {integrity: sha512-0xra4hKNA5PR2zYVXsDMNiXMGaDNoNRYMY6eTP2aVIxQbqIcVMDWSyCA8wMWX5iOpMWg0cZGaQ6a77f3Rlb34g==}
+    dependencies:
+      appdirsjs: 1.2.6
+      chalk: 4.1.2
+      lodash: 4.17.21
+      mime: 2.6.0
+      node-fetch: 2.6.7
+      open: 6.4.0
+      ora: 5.4.1
+      semver: 6.3.0
+      shell-quote: 1.7.3
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@react-native-community/cli-tools/8.0.0:
+    resolution: {integrity: sha512-jA4y8CebrRZaOJFjc5zMOnls4KfHkBl2FUtBZV2vcWuedQHa6JVwo+KO88ta3Ysby3uY0+mrZagZfXk7c0mrBw==}
     dependencies:
       appdirsjs: 1.2.6
       chalk: 4.1.2
