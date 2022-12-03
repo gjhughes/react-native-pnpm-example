@@ -49,7 +49,7 @@
       "node"
     ], 
     "transformIgnorePatterns": [
-      "node_modules/.pnpm/(?!(jest-)?@?react-native|@react-native-community|@react-navigation)"
+      "node_modules/.pnpm/(?!(jest-)?@?react-native|@react-native-community)"
     ]
   }
 }
